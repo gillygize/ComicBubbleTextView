@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99085EB14386C880000F25F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99085EA14386C880000F25F /* UIKit.framework */; };
+		C99085ED14386C880000F25F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99085EC14386C880000F25F /* Foundation.framework */; };
+		C99085EF14386C880000F25F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99085EE14386C880000F25F /* CoreGraphics.framework */; };
+		C99085F514386C880000F25F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99085F314386C880000F25F /* InfoPlist.strings */; };
+		C99085F714386C880000F25F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99085F614386C880000F25F /* main.m */; };
+		C99085FB14386C880000F25F /* ComicBubbleViewProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99085FA14386C880000F25F /* ComicBubbleViewProjectAppDelegate.m */; };
+		C99085FE14386C880000F25F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99085FC14386C880000F25F /* MainWindow.xib */; };
+		C990860114386C880000F25F /* ComicBubbleViewProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C990860014386C880000F25F /* ComicBubbleViewProjectViewController.m */; };
+		C990860414386C880000F25F /* ComicBubbleViewProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C990860214386C880000F25F /* ComicBubbleViewProjectViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C99085E614386C880000F25F /* ComicBubbleViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComicBubbleViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99085EA14386C880000F25F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C99085EC14386C880000F25F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C99085EE14386C880000F25F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C99085F214386C880000F25F /* ComicBubbleViewProject-Info.plist */ = {isa = PBXFileReference; path = "ComicBubbleViewProject-Info.plist"; sourceTree = "<group>"; };
+		C99085F414386C880000F25F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C99085F614386C880000F25F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C99085F814386C880000F25F /* ComicBubbleViewProject-Prefix.pch */ = {isa = PBXFileReference; path = "ComicBubbleViewProject-Prefix.pch"; sourceTree = "<group>"; };
+		C99085F914386C880000F25F /* ComicBubbleViewProjectAppDelegate.h */ = {isa = PBXFileReference; path = ComicBubbleViewProjectAppDelegate.h; sourceTree = "<group>"; };
+		C99085FA14386C880000F25F /* ComicBubbleViewProjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicBubbleViewProjectAppDelegate.m; sourceTree = "<group>"; };
+		C99085FD14386C880000F25F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C99085FF14386C880000F25F /* ComicBubbleViewProjectViewController.h */ = {isa = PBXFileReference; path = ComicBubbleViewProjectViewController.h; sourceTree = "<group>"; };
+		C990860014386C880000F25F /* ComicBubbleViewProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicBubbleViewProjectViewController.m; sourceTree = "<group>"; };
+		C990860314386C880000F25F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ComicBubbleViewProjectViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99085E314386C880000F25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99085EB14386C880000F25F /* UIKit.framework in Frameworks */,
+				C99085ED14386C880000F25F /* Foundation.framework in Frameworks */,
+				C99085EF14386C880000F25F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99085DB14386C880000F25F = {
+			isa = PBXGroup;
+			children = (
+				C99085F014386C880000F25F /* ComicBubbleViewProject */,
+				C99085E914386C880000F25F /* Frameworks */,
+				C99085E714386C880000F25F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99085E714386C880000F25F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99085E614386C880000F25F /* ComicBubbleViewProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99085E914386C880000F25F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99085EA14386C880000F25F /* UIKit.framework */,
+				C99085EC14386C880000F25F /* Foundation.framework */,
+				C99085EE14386C880000F25F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99085F014386C880000F25F /* ComicBubbleViewProject */ = {
+			isa = PBXGroup;
+			children = (
+				C99085F914386C880000F25F /* ComicBubbleViewProjectAppDelegate.h */,
+				C99085FA14386C880000F25F /* ComicBubbleViewProjectAppDelegate.m */,
+				C99085FC14386C880000F25F /* MainWindow.xib */,
+				C99085FF14386C880000F25F /* ComicBubbleViewProjectViewController.h */,
+				C990860014386C880000F25F /* ComicBubbleViewProjectViewController.m */,
+				C990860214386C880000F25F /* ComicBubbleViewProjectViewController.xib */,
+				C99085F114386C880000F25F /* Supporting Files */,
+			);
+			path = ComicBubbleViewProject;
+			sourceTree = "<group>";
+		};
+		C99085F114386C880000F25F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99085F214386C880000F25F /* ComicBubbleViewProject-Info.plist */,
+				C99085F314386C880000F25F /* InfoPlist.strings */,
+				C99085F614386C880000F25F /* main.m */,
+				C99085F814386C880000F25F /* ComicBubbleViewProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99085E514386C880000F25F /* ComicBubbleViewProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C990860714386C880000F25F /* Build configuration list for PBXNativeTarget "ComicBubbleViewProject" */;
+			buildPhases = (
+				C99085E214386C880000F25F /* Sources */,
+				C99085E314386C880000F25F /* Frameworks */,
+				C99085E414386C880000F25F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComicBubbleViewProject;
+			productName = ComicBubbleViewProject;
+			productReference = C99085E614386C880000F25F /* ComicBubbleViewProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99085DD14386C880000F25F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Matt Gillingham";
+			};
+			buildConfigurationList = C99085E014386C880000F25F /* Build configuration list for PBXProject "ComicBubbleViewProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C99085DB14386C880000F25F;
+			productRefGroup = C99085E714386C880000F25F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99085E514386C880000F25F /* ComicBubbleViewProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99085E414386C880000F25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99085F514386C880000F25F /* InfoPlist.strings in Resources */,
+				C99085FE14386C880000F25F /* MainWindow.xib in Resources */,
+				C990860414386C880000F25F /* ComicBubbleViewProjectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99085E214386C880000F25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99085F714386C880000F25F /* main.m in Sources */,
+				C99085FB14386C880000F25F /* ComicBubbleViewProjectAppDelegate.m in Sources */,
+				C990860114386C880000F25F /* ComicBubbleViewProjectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C99085F314386C880000F25F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99085F414386C880000F25F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C99085FC14386C880000F25F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99085FD14386C880000F25F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C990860214386C880000F25F /* ComicBubbleViewProjectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C990860314386C880000F25F /* en */,
+			);
+			name = ComicBubbleViewProjectViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C990860514386C880000F25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C990860614386C880000F25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C990860814386C880000F25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComicBubbleViewProject/ComicBubbleViewProject-Prefix.pch";
+				INFOPLIST_FILE = "ComicBubbleViewProject/ComicBubbleViewProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C990860914386C880000F25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComicBubbleViewProject/ComicBubbleViewProject-Prefix.pch";
+				INFOPLIST_FILE = "ComicBubbleViewProject/ComicBubbleViewProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99085E014386C880000F25F /* Build configuration list for PBXProject "ComicBubbleViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C990860514386C880000F25F /* Debug */,
+				C990860614386C880000F25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C990860714386C880000F25F /* Build configuration list for PBXNativeTarget "ComicBubbleViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C990860814386C880000F25F /* Debug */,
+				C990860914386C880000F25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99085DD14386C880000F25F /* Project object */;
+}
