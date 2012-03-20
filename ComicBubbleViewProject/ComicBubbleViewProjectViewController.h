@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ComicBubbleTextView.h"
 
 @interface ComicBubbleViewProjectViewController : UIViewController
+
+@property (nonatomic, retain) ComicBubbleTextView *comicBubbleTextView;
 
 @end

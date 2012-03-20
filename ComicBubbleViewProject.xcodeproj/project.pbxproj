@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C948FBC1150C0FF100B8117F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99085EC14386C880000F25F /* Foundation.framework */; };
+		C948FBC7150C0FF100B8117F /* ComicBubbleTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C948FBC6150C0FF100B8117F /* ComicBubbleTextView.m */; };
+		C948FBCF150C0FF100B8117F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C948FBCE150C0FF100B8117F /* SenTestingKit.framework */; };
+		C948FBD0150C0FF100B8117F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99085EA14386C880000F25F /* UIKit.framework */; };
+		C948FBD1150C0FF100B8117F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99085EC14386C880000F25F /* Foundation.framework */; };
+		C948FBD4150C0FF100B8117F /* libComicBubbleTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C948FBC0150C0FF100B8117F /* libComicBubbleTextView.a */; };
+		C948FBDA150C0FF100B8117F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C948FBD8150C0FF100B8117F /* InfoPlist.strings */; };
+		C948FBDD150C0FF100B8117F /* ComicBubbleTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C948FBDC150C0FF100B8117F /* ComicBubbleTextViewTests.m */; };
 		C99085EB14386C880000F25F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99085EA14386C880000F25F /* UIKit.framework */; };
 		C99085ED14386C880000F25F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99085EC14386C880000F25F /* Foundation.framework */; };
 		C99085EF14386C880000F25F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99085EE14386C880000F25F /* CoreGraphics.framework */; };
@@ -15,31 +23,71 @@
 		C99085FB14386C880000F25F /* ComicBubbleViewProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99085FA14386C880000F25F /* ComicBubbleViewProjectAppDelegate.m */; };
 		C99085FE14386C880000F25F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99085FC14386C880000F25F /* MainWindow.xib */; };
 		C990860114386C880000F25F /* ComicBubbleViewProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C990860014386C880000F25F /* ComicBubbleViewProjectViewController.m */; };
-		C990860414386C880000F25F /* ComicBubbleViewProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C990860214386C880000F25F /* ComicBubbleViewProjectViewController.xib */; };
+		C9908612143881A40000F25F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9908611143881A40000F25F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C948FBD2150C0FF100B8117F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99085DD14386C880000F25F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C948FBBF150C0FF100B8117F;
+			remoteInfo = ComicBubbleTextView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		C948FBC0150C0FF100B8117F /* libComicBubbleTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComicBubbleTextView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C948FBC4150C0FF100B8117F /* ComicBubbleTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComicBubbleTextView-Prefix.pch"; sourceTree = "<group>"; };
+		C948FBC5150C0FF100B8117F /* ComicBubbleTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComicBubbleTextView.h; sourceTree = "<group>"; };
+		C948FBC6150C0FF100B8117F /* ComicBubbleTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicBubbleTextView.m; sourceTree = "<group>"; };
+		C948FBCD150C0FF100B8117F /* ComicBubbleTextViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComicBubbleTextViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C948FBCE150C0FF100B8117F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C948FBD7150C0FF100B8117F /* ComicBubbleTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComicBubbleTextViewTests-Info.plist"; sourceTree = "<group>"; };
+		C948FBD9150C0FF100B8117F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C948FBDB150C0FF100B8117F /* ComicBubbleTextViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComicBubbleTextViewTests.h; sourceTree = "<group>"; };
+		C948FBDC150C0FF100B8117F /* ComicBubbleTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicBubbleTextViewTests.m; sourceTree = "<group>"; };
 		C99085E614386C880000F25F /* ComicBubbleViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComicBubbleViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99085EA14386C880000F25F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C99085EC14386C880000F25F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C99085EE14386C880000F25F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C99085F214386C880000F25F /* ComicBubbleViewProject-Info.plist */ = {isa = PBXFileReference; path = "ComicBubbleViewProject-Info.plist"; sourceTree = "<group>"; };
+		C99085F214386C880000F25F /* ComicBubbleViewProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComicBubbleViewProject-Info.plist"; sourceTree = "<group>"; };
 		C99085F414386C880000F25F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C99085F614386C880000F25F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C99085F814386C880000F25F /* ComicBubbleViewProject-Prefix.pch */ = {isa = PBXFileReference; path = "ComicBubbleViewProject-Prefix.pch"; sourceTree = "<group>"; };
-		C99085F914386C880000F25F /* ComicBubbleViewProjectAppDelegate.h */ = {isa = PBXFileReference; path = ComicBubbleViewProjectAppDelegate.h; sourceTree = "<group>"; };
+		C99085F814386C880000F25F /* ComicBubbleViewProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComicBubbleViewProject-Prefix.pch"; sourceTree = "<group>"; };
+		C99085F914386C880000F25F /* ComicBubbleViewProjectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComicBubbleViewProjectAppDelegate.h; sourceTree = "<group>"; };
 		C99085FA14386C880000F25F /* ComicBubbleViewProjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicBubbleViewProjectAppDelegate.m; sourceTree = "<group>"; };
 		C99085FD14386C880000F25F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		C99085FF14386C880000F25F /* ComicBubbleViewProjectViewController.h */ = {isa = PBXFileReference; path = ComicBubbleViewProjectViewController.h; sourceTree = "<group>"; };
+		C99085FF14386C880000F25F /* ComicBubbleViewProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComicBubbleViewProjectViewController.h; sourceTree = "<group>"; };
 		C990860014386C880000F25F /* ComicBubbleViewProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicBubbleViewProjectViewController.m; sourceTree = "<group>"; };
-		C990860314386C880000F25F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ComicBubbleViewProjectViewController.xib; sourceTree = "<group>"; };
+		C9908611143881A40000F25F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C948FBBD150C0FF100B8117F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C948FBC1150C0FF100B8117F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C948FBC9150C0FF100B8117F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C948FBCF150C0FF100B8117F /* SenTestingKit.framework in Frameworks */,
+				C948FBD0150C0FF100B8117F /* UIKit.framework in Frameworks */,
+				C948FBD1150C0FF100B8117F /* Foundation.framework in Frameworks */,
+				C948FBD4150C0FF100B8117F /* libComicBubbleTextView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C99085E314386C880000F25F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9908612143881A40000F25F /* QuartzCore.framework in Frameworks */,
 				C99085EB14386C880000F25F /* UIKit.framework in Frameworks */,
 				C99085ED14386C880000F25F /* Foundation.framework in Frameworks */,
 				C99085EF14386C880000F25F /* CoreGraphics.framework in Frameworks */,
@@ -49,10 +97,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C948FBC2150C0FF100B8117F /* ComicBubbleTextView */ = {
+			isa = PBXGroup;
+			children = (
+				C948FBC5150C0FF100B8117F /* ComicBubbleTextView.h */,
+				C948FBC6150C0FF100B8117F /* ComicBubbleTextView.m */,
+				C948FBC3150C0FF100B8117F /* Supporting Files */,
+			);
+			path = ComicBubbleTextView;
+			sourceTree = "<group>";
+		};
+		C948FBC3150C0FF100B8117F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C948FBC4150C0FF100B8117F /* ComicBubbleTextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C948FBD5150C0FF100B8117F /* ComicBubbleTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C948FBDB150C0FF100B8117F /* ComicBubbleTextViewTests.h */,
+				C948FBDC150C0FF100B8117F /* ComicBubbleTextViewTests.m */,
+				C948FBD6150C0FF100B8117F /* Supporting Files */,
+			);
+			path = ComicBubbleTextViewTests;
+			sourceTree = "<group>";
+		};
+		C948FBD6150C0FF100B8117F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C948FBD7150C0FF100B8117F /* ComicBubbleTextViewTests-Info.plist */,
+				C948FBD8150C0FF100B8117F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C99085DB14386C880000F25F = {
 			isa = PBXGroup;
 			children = (
 				C99085F014386C880000F25F /* ComicBubbleViewProject */,
+				C948FBC2150C0FF100B8117F /* ComicBubbleTextView */,
+				C948FBD5150C0FF100B8117F /* ComicBubbleTextViewTests */,
 				C99085E914386C880000F25F /* Frameworks */,
 				C99085E714386C880000F25F /* Products */,
 			);
@@ -62,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				C99085E614386C880000F25F /* ComicBubbleViewProject.app */,
+				C948FBC0150C0FF100B8117F /* libComicBubbleTextView.a */,
+				C948FBCD150C0FF100B8117F /* ComicBubbleTextViewTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +158,11 @@
 		C99085E914386C880000F25F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9908611143881A40000F25F /* QuartzCore.framework */,
 				C99085EA14386C880000F25F /* UIKit.framework */,
 				C99085EC14386C880000F25F /* Foundation.framework */,
 				C99085EE14386C880000F25F /* CoreGraphics.framework */,
+				C948FBCE150C0FF100B8117F /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,7 +175,6 @@
 				C99085FC14386C880000F25F /* MainWindow.xib */,
 				C99085FF14386C880000F25F /* ComicBubbleViewProjectViewController.h */,
 				C990860014386C880000F25F /* ComicBubbleViewProjectViewController.m */,
-				C990860214386C880000F25F /* ComicBubbleViewProjectViewController.xib */,
 				C99085F114386C880000F25F /* Supporting Files */,
 			);
 			path = ComicBubbleViewProject;
@@ -103,7 +193,53 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C948FBBE150C0FF100B8117F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		C948FBBF150C0FF100B8117F /* ComicBubbleTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C948FBE2150C0FF100B8117F /* Build configuration list for PBXNativeTarget "ComicBubbleTextView" */;
+			buildPhases = (
+				C948FBBC150C0FF100B8117F /* Sources */,
+				C948FBBD150C0FF100B8117F /* Frameworks */,
+				C948FBBE150C0FF100B8117F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComicBubbleTextView;
+			productName = ComicBubbleTextView;
+			productReference = C948FBC0150C0FF100B8117F /* libComicBubbleTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C948FBCC150C0FF100B8117F /* ComicBubbleTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C948FBE3150C0FF100B8117F /* Build configuration list for PBXNativeTarget "ComicBubbleTextViewTests" */;
+			buildPhases = (
+				C948FBC8150C0FF100B8117F /* Sources */,
+				C948FBC9150C0FF100B8117F /* Frameworks */,
+				C948FBCA150C0FF100B8117F /* Resources */,
+				C948FBCB150C0FF100B8117F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C948FBD3150C0FF100B8117F /* PBXTargetDependency */,
+			);
+			name = ComicBubbleTextViewTests;
+			productName = ComicBubbleTextViewTests;
+			productReference = C948FBCD150C0FF100B8117F /* ComicBubbleTextViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		C99085E514386C880000F25F /* ComicBubbleViewProject */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C990860714386C880000F25F /* Build configuration list for PBXNativeTarget "ComicBubbleViewProject" */;
@@ -127,6 +263,7 @@
 		C99085DD14386C880000F25F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Matt Gillingham";
 			};
 			buildConfigurationList = C99085E014386C880000F25F /* Build configuration list for PBXProject "ComicBubbleViewProject" */;
@@ -142,24 +279,65 @@
 			projectRoot = "";
 			targets = (
 				C99085E514386C880000F25F /* ComicBubbleViewProject */,
+				C948FBBF150C0FF100B8117F /* ComicBubbleTextView */,
+				C948FBCC150C0FF100B8117F /* ComicBubbleTextViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C948FBCA150C0FF100B8117F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C948FBDA150C0FF100B8117F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C99085E414386C880000F25F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C99085F514386C880000F25F /* InfoPlist.strings in Resources */,
 				C99085FE14386C880000F25F /* MainWindow.xib in Resources */,
-				C990860414386C880000F25F /* ComicBubbleViewProjectViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C948FBCB150C0FF100B8117F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		C948FBBC150C0FF100B8117F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C948FBC7150C0FF100B8117F /* ComicBubbleTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C948FBC8150C0FF100B8117F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C948FBDD150C0FF100B8117F /* ComicBubbleTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C99085E214386C880000F25F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,7 +350,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C948FBD3150C0FF100B8117F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C948FBBF150C0FF100B8117F /* ComicBubbleTextView */;
+			targetProxy = C948FBD2150C0FF100B8117F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		C948FBD8150C0FF100B8117F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C948FBD9150C0FF100B8117F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		C99085F314386C880000F25F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -189,17 +383,85 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		C990860214386C880000F25F /* ComicBubbleViewProjectViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C990860314386C880000F25F /* en */,
-			);
-			name = ComicBubbleViewProjectViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C948FBDE150C0FF100B8117F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				DSTROOT = /tmp/ComicBubbleTextView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComicBubbleTextView/ComicBubbleTextView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C948FBDF150C0FF100B8117F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				DSTROOT = /tmp/ComicBubbleTextView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComicBubbleTextView/ComicBubbleTextView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C948FBE0150C0FF100B8117F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComicBubbleTextView/ComicBubbleTextView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "ComicBubbleTextViewTests/ComicBubbleTextViewTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C948FBE1150C0FF100B8117F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComicBubbleTextView/ComicBubbleTextView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "ComicBubbleTextViewTests/ComicBubbleTextViewTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		C990860514386C880000F25F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -250,8 +512,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComicBubbleViewProject/ComicBubbleViewProject-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ComicBubbleViewProject/ComicBubbleViewProject-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,8 +525,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComicBubbleViewProject/ComicBubbleViewProject-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ComicBubbleViewProject/ComicBubbleViewProject-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -270,6 +536,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C948FBE2150C0FF100B8117F /* Build configuration list for PBXNativeTarget "ComicBubbleTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C948FBDE150C0FF100B8117F /* Debug */,
+				C948FBDF150C0FF100B8117F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C948FBE3150C0FF100B8117F /* Build configuration list for PBXNativeTarget "ComicBubbleTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C948FBE0150C0FF100B8117F /* Debug */,
+				C948FBE1150C0FF100B8117F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C99085E014386C880000F25F /* Build configuration list for PBXProject "ComicBubbleViewProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -286,6 +570,7 @@
 				C990860914386C880000F25F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
