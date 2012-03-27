@@ -18,7 +18,8 @@
 @property (nonatomic, retain) UITextView *textView;
 @property CGFloat triangleCenter;
 
--(id)initWithFrame:(CGRect)frame text:(NSString *)text;
--(void)setText:(NSString*)text animated:(BOOL)animated;
+- (id)initWithFrame:(CGRect)frame text:(NSString *)text;
+- (void)setText:(NSString*)text animated:(BOOL)animated;
+- (void)setTriangleCenter:(CGFloat)triangleCenter animated:(BOOL)animated;
 
 @end

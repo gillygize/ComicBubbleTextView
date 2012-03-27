@@ -116,6 +116,12 @@ const int strokeWidth = 4;
   [self resizeContent:animated];
 }
 
+- (void)setTriangleCenter:(CGFloat)triangleCenter animated:(BOOL)animated {
+  self.triangleCenter = triangleCenter;
+  
+  [self resizeContent:animated];
+}
+
 - (void)resizeContent:(BOOL)animated {
   if (animated) {
     [CATransaction begin];
