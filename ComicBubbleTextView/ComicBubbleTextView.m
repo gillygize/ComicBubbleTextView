@@ -35,13 +35,12 @@ const int strokeWidth = 4;
       frame.size.width - 20.0f,
       frame.size.height - 20.0f - HEIGHTOFPOPUPTRIANGLE 
     )];
-    
+
     _textView.font = [UIFont fontWithName:kComicBubbleFontName size:24];
     _textView.center = CGPointMake(frame.size.width / 2.0f, (frame.size.height - HEIGHTOFPOPUPTRIANGLE) / 2.0f);
     _textView.textAlignment = UITextAlignmentCenter;
     _textView.text = string;
     _textView.backgroundColor = [UIColor clearColor];
-    _textView.editable = NO;
     _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     _textView.returnKeyType = UIReturnKeyDone; 
     [self addSubview:_textView];
