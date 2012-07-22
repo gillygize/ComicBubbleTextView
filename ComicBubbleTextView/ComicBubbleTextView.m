@@ -42,7 +42,9 @@ const int strokeWidth = 4;
     _textView.text = string;
     _textView.backgroundColor = [UIColor clearColor];
     _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    _textView.returnKeyType = UIReturnKeyDone; 
+    _textView.returnKeyType = UIReturnKeyDone;
+    _textView.enablesReturnKeyAutomatically = YES;
+    _textView.textColor = [UIColor whiteColor];
     [self addSubview:_textView];
     
     // Note: The contentSize of the textView may only be set to the size of the text with the font *after* it is added
@@ -140,7 +142,7 @@ const int strokeWidth = 4;
     CGPathRef path = [self createPath];    
     shapeLayer = [CAShapeLayer layer];
 
-    [shapeLayer setFillColor:[[UIColor whiteColor] CGColor]];
+    [shapeLayer setFillColor:[[UIColor blackColor] CGColor]];
     [shapeLayer setStrokeColor:[[UIColor blackColor] CGColor]];
     [shapeLayer setLineWidth:strokeWidth];
     [shapeLayer setLineJoin:kCALineJoinRound];

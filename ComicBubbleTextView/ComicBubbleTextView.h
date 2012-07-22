@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-#define kComicBubbleFontName    @"Helvetica"
+#define kComicBubbleFontName    @"Helvetica-Bold"
 
 @interface ComicBubbleTextView : UIView <UITextViewDelegate> {
   CAShapeLayer *shapeLayer;
