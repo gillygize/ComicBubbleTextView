@@ -40,7 +40,7 @@ const int strokeWidth = 4;
     _textView.center = CGPointMake(frame.size.width / 2.0f, (frame.size.height - HEIGHTOFPOPUPTRIANGLE) / 2.0f);
     _textView.textAlignment = UITextAlignmentCenter;
     _textView.text = string;
-    _textView.backgroundColor = [UIColor clearColor];
+    _textView.backgroundColor = [UIColor blackColor];
     _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     _textView.returnKeyType = UIReturnKeyDone;
     _textView.enablesReturnKeyAutomatically = YES;
@@ -109,6 +109,7 @@ const int strokeWidth = 4;
 
   self.textView.bounds = newBounds;
   self.textView.center = newCenter;
+  self.textView.contentOffset = CGPointMake(0.0f, self.textView.contentSize.height-newBounds.size.height);
 }
 
 - (void)setText:(NSString*)text animated:(BOOL)animated {
@@ -129,7 +130,7 @@ const int strokeWidth = 4;
     [CATransaction setValue:[NSNumber numberWithFloat:0.3f] forKey:kCATransactionAnimationDuration];
   }
   
-  [self resizeTextViewFrameToFitContentAnimated:animated];
+  [self resizeTextViewFrameToFitContentAnimated:animated];  
   [self resizeBubble:animated];
   
   if (animated) {
